@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graymattor 3D - Chris Gray</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #282c34;
+            color: #61dafb;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        main {
+            padding: 2rem;
+        }
+        .bio, .services, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #282c34;
+            border-bottom: 2px solid #61dafb;
+            padding-bottom: 0.5rem;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services ul li {
+            background-color: #61dafb;
+            color: #282c34;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #282c34;
+            color: #61dafb;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+            background-color: #61dafb;
+            color: #fff;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #21a1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Graymattor 3D</h1>
+        <p>Innovative 3D Printing and Design Solutions</p>
+    </header>
+    <main>
+        <section class="bio">
+            <h2>About Chris Gray</h2>
+            <p>Hello, I'm Chris Gray, the founder of Graymattor 3D. We specialize in 3D printing, design, reverse engineering, and training courses. Our mission is to bring your ideas to life with cutting-edge technology and creative solutions.</p>
+        </section>
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>3D Printing</li>
+                <li>Design</li>
+                <li>Reverse Engineering</li>
+                <li>Training Courses</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Graymattor 3D. All rights reserved.</p>
+    </footer>
+</body>
+</html>
